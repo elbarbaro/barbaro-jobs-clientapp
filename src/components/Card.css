@@ -1,0 +1,65 @@
+.Card {
+    width: 30%;
+    position: relative;
+    margin: 2rem 1rem;
+}
+
+.img-container {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.bg-pink {
+    background-color: violet;
+}
+
+.Card-content {
+    padding: 1.5rem 2rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Card-header {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: rgb(171, 169, 176);
+}
+
+.Card-header > p {
+    display: inline;
+    margin: 0;
+}
+
+.Card-title {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.paragraph {
+    margin-top: 0;
+    font-size: 14px;
+    color: rgb(170, 167, 182);
+}
+
+.Card-footer {
+    margin-top: 1.3rem;
+    margin-bottom: 0.8rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(249, 45%, 41%);
+}
+
+.Card-footer > p {
+    margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .Card {
+        width: 100%;
+    }
+}
