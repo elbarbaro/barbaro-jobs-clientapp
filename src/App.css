@@ -1,8 +1,8 @@
 .App-header {
   display: flex;
   justify-content: center;
-  height: 100px;
-  background-color: mediumslateblue;
+  height: 120px;
+  background-color: #5964e1;
   border-bottom-left-radius: 80px;
 }
 
@@ -15,6 +15,7 @@
 
 .logo {
   margin-top: 0.8rem;
+  padding-left: 1rem;
   position: absolute;
   color: white;
   font-size: 22px;
@@ -24,6 +25,7 @@
 .Content {
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 
 @media screen and (max-width: 320px) {

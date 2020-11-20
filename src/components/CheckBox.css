@@ -1,0 +1,41 @@
+.CheckBox {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.CheckBox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 3px;
+}
+
+.CheckBox input:checked ~ .checkmark {
+    background-color: #5964e1;
+}
+
+.checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.CheckBox input:checked ~ .checkmark::after {
+    display: block;
+}

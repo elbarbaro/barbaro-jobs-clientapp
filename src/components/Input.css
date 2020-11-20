@@ -1,0 +1,36 @@
+.Input {
+    width: 100%;
+    height: inherit;
+    display: flex;
+}
+
+.Input > img {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Input > input {
+    border: none;
+    margin-top: 0 1rem;
+    width: 100%;
+    height: inherit;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.Input > input::placeholder {
+    font-size: 14px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 33.3333333333%;
+}
+
+.col-3 {
+    width: 25%;
+}
