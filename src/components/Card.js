@@ -13,7 +13,6 @@ function Card() {
     return (
         <div className="Card">
             <div className="img-container" style={{backgroundColor: `rgb(${randomColor()})`}}>
-                <img alt="img"/>
             </div>
             <div className="Card-content">
                 <div className="Card-header">

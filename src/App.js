@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <a href="#" className="logo">barbarojobs</a>
+          <a href="/" className="logo">barbarojobs</a>
         </div>
       </header>
       <div className="Content">
