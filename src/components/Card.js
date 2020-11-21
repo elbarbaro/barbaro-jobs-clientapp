@@ -1,9 +1,18 @@
 import './Card.css'
 
 function Card() {
+
+    const randomColor = () => {
+        
+        const r = Math.floor(Math.random() * 255);
+        const g = Math.floor(Math.random() * 255);
+        const b = Math.floor(Math.random() * 255);
+
+        return `${r},${g},${b}`;
+    }
     return (
         <div className="Card">
-            <div className="img-container bg-pink">
+            <div className="img-container" style={{backgroundColor: `rgb(${randomColor()})`}}>
                 <img />
             </div>
             <div className="Card-content">

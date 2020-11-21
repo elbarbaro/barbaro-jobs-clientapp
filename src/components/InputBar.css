@@ -17,3 +17,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 320px) {
+
+    .InputBar > .Input:not(:first-child) {
+        display: none;
+    }
+
+    .InputBar-actions {
+        display: none;
+    }
+}

@@ -8,4 +8,10 @@
     outline: none;
     color: white;
     background-color: #5964e1;
+    cursor: pointer;
+
+}
+
+.Button:hover {
+    background-color: #535dcb;
 }
